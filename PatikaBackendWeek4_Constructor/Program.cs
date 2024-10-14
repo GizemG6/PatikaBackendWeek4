@@ -1,8 +1,10 @@
-﻿Baby baby1 = new Baby();
+﻿// Creating a baby object using the default constructor
+Baby baby1 = new Baby();
 baby1.firstName = "Jane";
 baby1.lastName = "Smith";
 Console.WriteLine($"Baby 1: {baby1.firstName} {baby1.lastName}, Birth Date: {baby1.birthDate}");
 
+// Creating a baby object using the parameterized constructor
 Baby baby2 = new Baby("Oscar", "Wilson");
 Console.WriteLine($"Baby 2: {baby2.firstName} {baby2.lastName}, Birth Date: {baby2.birthDate}");
 
