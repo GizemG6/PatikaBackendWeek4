@@ -5,9 +5,11 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_FirstClass", "PatikaBackendWeek4_FirstClass\PatikaBackendWeek4_FirstClass.csproj", "{11A7C13F-6154-40AB-90F1-34931B3A9E51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Constructor", "PatikaBackendWeek4_Constructor\PatikaBackendWeek4_Constructor.csproj", "{11A22732-2872-4898-831B-E047CAC3822A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_Constructor", "PatikaBackendWeek4_Constructor\PatikaBackendWeek4_Constructor.csproj", "{11A22732-2872-4898-831B-E047CAC3822A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Library", "PatikaBackendWeek4_Library\PatikaBackendWeek4_Library.csproj", "{0F1AACCA-9AAC-4490-91BF-ED42DE6F0BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_Library", "PatikaBackendWeek4_Library\PatikaBackendWeek4_Library.csproj", "{0F1AACCA-9AAC-4490-91BF-ED42DE6F0BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Encapsulation", "PatikaBackendWeek4_Encapsulation\PatikaBackendWeek4_Encapsulation.csproj", "{4F07B2A5-AAC2-4B12-9959-B391804444F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0F1AACCA-9AAC-4490-91BF-ED42DE6F0BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1AACCA-9AAC-4490-91BF-ED42DE6F0BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1AACCA-9AAC-4490-91BF-ED42DE6F0BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F07B2A5-AAC2-4B12-9959-B391804444F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F07B2A5-AAC2-4B12-9959-B391804444F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F07B2A5-AAC2-4B12-9959-B391804444F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F07B2A5-AAC2-4B12-9959-B391804444F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
