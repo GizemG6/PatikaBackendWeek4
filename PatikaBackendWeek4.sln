@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Inherita
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Polymorphism", "PatikaBackendWeek4_Polymorphism\PatikaBackendWeek4_Polymorphism.csproj", "{83FEEF75-6BA1-435C-A394-F20ACEF06826}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Abstraction", "PatikaBackendWeek4_Abstraction\PatikaBackendWeek4_Abstraction.csproj", "{0993C3B0-F342-459E-A65D-73E88E3FEB6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{83FEEF75-6BA1-435C-A394-F20ACEF06826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83FEEF75-6BA1-435C-A394-F20ACEF06826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83FEEF75-6BA1-435C-A394-F20ACEF06826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0993C3B0-F342-459E-A65D-73E88E3FEB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0993C3B0-F342-459E-A65D-73E88E3FEB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0993C3B0-F342-459E-A65D-73E88E3FEB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0993C3B0-F342-459E-A65D-73E88E3FEB6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
