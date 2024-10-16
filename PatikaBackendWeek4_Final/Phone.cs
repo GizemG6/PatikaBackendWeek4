@@ -8,9 +8,9 @@ namespace PatikaBackendWeek4_Final
 {
     public class Phone : BaseMachine
     {
-        public bool trLicense { get; set; }
+        public bool trLicense { get; set; } // license status property
 
-        public override void PrintInfo()
+        public override void PrintInfo() // override to include license status
         {
             base.PrintInfo();
             if (trLicense)
@@ -23,7 +23,7 @@ namespace PatikaBackendWeek4_Final
             }
         }
 
-        public override void GetProductName()
+        public override void GetProductName() // override to print specific message for phone
         {
             Console.WriteLine($"Your phone name is {Name}");
         }

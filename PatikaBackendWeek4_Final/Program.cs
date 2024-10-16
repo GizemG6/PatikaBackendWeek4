@@ -6,7 +6,7 @@ namespace PatikaBackendWeek4_Final
     {
         static void Main(string[] args)
         {
-            bool _continue = true;
+            bool _continue = true; // continue flag
 
             while (_continue)
             {
@@ -15,7 +15,7 @@ namespace PatikaBackendWeek4_Final
 
                 if (choice == "1") // handle the choice
                 {
-                    Phone phone = new Phone();
+                    Phone phone = new Phone(); // create a new phone object
 
                     Console.WriteLine("Please enter phone information:");
 
@@ -41,7 +41,7 @@ namespace PatikaBackendWeek4_Final
                 }
                 else if (choice == "2")
                 {
-                    Computer computer = new Computer();
+                    Computer computer = new Computer(); // create a new computer object
 
                     Console.WriteLine("Please enter computer information:");
 
@@ -70,13 +70,13 @@ namespace PatikaBackendWeek4_Final
                 }
                 else
                 {
-                    Console.WriteLine("Invalid choice! Please press either 1 or 2.");
-                    continue;
+                    Console.WriteLine("Invalid choice! Please press either 1 or 2."); // error message for invalid selection
+                    continue; // continue to the next iteration
                 }
 
-                Console.WriteLine("Would you like to produce another product? (Yes/No):");
+                Console.WriteLine("Would you like to produce another product? (Yes/No):"); // ask if the user wants to create another product
                 string result = Console.ReadLine().ToLower();
-                if (result == "Yes")
+                if (result == "Yes") // if user wants to continue
                 {
                     _continue = false;
                     Console.WriteLine("Have a nice day!");

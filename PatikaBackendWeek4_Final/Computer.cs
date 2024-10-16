@@ -10,7 +10,7 @@ namespace PatikaBackendWeek4_Final
     {
         public bool Bluetooth { get; set; }
 
-        private int _usbPortCount;
+        private int _usbPortCount; // private variable for USB input count
 
         public int USBPortCount
         {
@@ -20,7 +20,7 @@ namespace PatikaBackendWeek4_Final
             }
             set
             {
-                if (value == 2 || value == 4)
+                if (value == 2 || value == 4) // validate the USB input count
                 {
                     _usbPortCount = value;
                 }
@@ -32,7 +32,7 @@ namespace PatikaBackendWeek4_Final
             }
         }
 
-        public override void PrintInfo()
+        public override void PrintInfo() // override to include USB input count and Bluetooth status
         {
             base.PrintInfo();
             if (Bluetooth)
@@ -46,7 +46,7 @@ namespace PatikaBackendWeek4_Final
             Console.WriteLine($"USB count: {_usbPortCount}");
         }
 
-        public override void GetProductName()
+        public override void GetProductName() // override to print specific message for computer
         {
             Console.WriteLine($"Your computer name is {Name}");
         }

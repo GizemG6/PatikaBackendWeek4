@@ -8,6 +8,8 @@ namespace PatikaBackendWeek4_Final
 {
     public abstract class BaseMachine
     {
+
+        // properties
         public DateTime productionDate { get; private set; }
         public string serialNumber { get; set; }
         public string Name { get; set; }
@@ -16,16 +18,16 @@ namespace PatikaBackendWeek4_Final
 
         public BaseMachine()
         {
-            productionDate = DateTime.Now;
+            productionDate = DateTime.Now; // production date is automatically set
         }
 
-        public virtual void PrintInfo()
+        public virtual void PrintInfo() // method to print information
         {
             Console.WriteLine($"Production Date: {productionDate}, Serial Number: {serialNumber}, Name: {Name}, Description: {Description}, " +
                 $"Operating System: {operatingSystem}");
         }
 
-        public abstract void GetProductName();
+        public abstract void GetProductName(); // abstract method to get product name
 
     }
 }
