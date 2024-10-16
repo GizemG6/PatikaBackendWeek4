@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_Library"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_Encapsulation", "PatikaBackendWeek4_Encapsulation\PatikaBackendWeek4_Encapsulation.csproj", "{4F07B2A5-AAC2-4B12-9959-B391804444F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Inheritance", "PatikaBackendWeek4_Inheritance\PatikaBackendWeek4_Inheritance.csproj", "{CFC837A7-3152-4F81-8591-7C3F3FF5F45B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_Inheritance", "PatikaBackendWeek4_Inheritance\PatikaBackendWeek4_Inheritance.csproj", "{CFC837A7-3152-4F81-8591-7C3F3FF5F45B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Polymorphism", "PatikaBackendWeek4_Polymorphism\PatikaBackendWeek4_Polymorphism.csproj", "{83FEEF75-6BA1-435C-A394-F20ACEF06826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_Polymorphism", "PatikaBackendWeek4_Polymorphism\PatikaBackendWeek4_Polymorphism.csproj", "{83FEEF75-6BA1-435C-A394-F20ACEF06826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Abstraction", "PatikaBackendWeek4_Abstraction\PatikaBackendWeek4_Abstraction.csproj", "{0993C3B0-F342-459E-A65D-73E88E3FEB6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatikaBackendWeek4_Abstraction", "PatikaBackendWeek4_Abstraction\PatikaBackendWeek4_Abstraction.csproj", "{0993C3B0-F342-459E-A65D-73E88E3FEB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaBackendWeek4_Final", "PatikaBackendWeek4_Final\PatikaBackendWeek4_Final.csproj", "{7176D5BD-2DBF-439A-B27D-095FB6078F09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{0993C3B0-F342-459E-A65D-73E88E3FEB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0993C3B0-F342-459E-A65D-73E88E3FEB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0993C3B0-F342-459E-A65D-73E88E3FEB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7176D5BD-2DBF-439A-B27D-095FB6078F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7176D5BD-2DBF-439A-B27D-095FB6078F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7176D5BD-2DBF-439A-B27D-095FB6078F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7176D5BD-2DBF-439A-B27D-095FB6078F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
