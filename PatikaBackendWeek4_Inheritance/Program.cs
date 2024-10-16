@@ -7,5 +7,5 @@ ogrenci.StudentInfo();
 Ogretmen ogretmen = new Ogretmen(); // new ogretmen
 ogretmen.firstName = "Yigit";
 ogretmen.lastName = "Haciefendioglu";
-ogretmen.Salary = 100000;
+ogretmen.Salary = 100000m;
 ogretmen.TeacherInfo();
